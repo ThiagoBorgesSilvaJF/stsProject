@@ -1,0 +1,22 @@
+package com.example.algamoney.api.model;
+
+import java.util.Objects;
+
+@Entity
+@Table(name = "pessoa")
+public class Pessoa {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long codigo;
+	
+	@NotNull
+	@Size(min = 3, max = 20)
+	private String nome;
+	
+	
+
+}
+
+
+

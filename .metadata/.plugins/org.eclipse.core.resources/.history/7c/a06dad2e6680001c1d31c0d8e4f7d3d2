@@ -1,0 +1,42 @@
+package com.example.algamoney.api.model;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table (name = "lancamento")
+public class Lancamento {
+	
+	private Long codigo;
+	
+	private String descricao;
+	
+	@Column(name = "data_vencimento")
+	private LocalDate dataVencimento;
+	
+	@Column(name = "data_pagamento")
+	private LocalDate dataPagamento;
+	
+	private BigDecimal valor;
+	
+	private String observacao;
+	
+	private TipoLancamento tipo;
+	
+	@ManyToOne
+	@JoinColumn(name = "codigo_categoria")
+	private Categoria categoria;
+	
+	@ManyToOne
+	@JoinColumn(name = "codigo_pessoa")
+	private Pessoa pessoa;
+	
+	
+	
+}

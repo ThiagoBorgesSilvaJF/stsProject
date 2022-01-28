@@ -2,7 +2,7 @@ package com.example.algamoney.api.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.Objects;
+
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -120,7 +120,10 @@ public class Lancamento {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(codigo);
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((codigo == null) ? 0 : codigo.hashCode());
+		return result;
 	}
 
 	@Override
@@ -132,11 +135,13 @@ public class Lancamento {
 		if (getClass() != obj.getClass())
 			return false;
 		Lancamento other = (Lancamento) obj;
-		return Objects.equals(codigo, other.codigo);
+		if (codigo == null) {
+			if (other.codigo != null)
+				return false;
+		} else if (!codigo.equals(other.codigo))
+			return false;
+		return true;
 	}
-	
-	
-	
 	
 	
 }

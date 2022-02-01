@@ -1,0 +1,14 @@
+package com.example.algamoney.api.service;
+
+import org.springframework.stereotype.Service;
+
+import com.example.algamoney.api.model.Lancamento;
+
+@Service
+public class LancamentoService {
+	
+	public Lancamento salvar(Lancamento lancamento) {
+		return null;
+	}
+
+}

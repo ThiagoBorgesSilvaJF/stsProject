@@ -13494,3 +13494,69 @@ Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-08 23:26:14.806
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 00:40:06.851
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 00:44:02.201
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 00:46:18.173
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 00:48:32.794
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-02-09 00:50:08.313
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 00:51:11.160
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 00:53:07.822
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 00:54:01.763
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 00:56:37.969
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 00:57:01.540
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 01:00:48.098
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 01:01:17.833
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 01:01:56.111
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 01:02:58.070
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-02-09 01:18:26.725
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.4.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 01:23:55.774
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.acXhYgfG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 01:23:55.774
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.acXhYgfG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 01:23:55.775
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 01:23:55.775
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.acXhYgfG => OK

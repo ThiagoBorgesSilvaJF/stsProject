@@ -1,0 +1,15 @@
+package com.example.algamoney.api.repository.lancamento;
+
+import java.util.List;
+
+import com.example.algamoney.api.model.Lancamento;
+import com.example.algamoney.api.repository.filter.LancamentoFilter;
+
+public class LancamentoRepositoryImpl implements LancamentoRepositoryQuery {
+	
+	@Override
+	public List<Lancamento> filtrar(LancamentoFilter lancamentoFilter) {
+		return null;
+	}
+
+}

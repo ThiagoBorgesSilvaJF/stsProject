@@ -67,13 +67,12 @@ public class LancamentoResource {
 		return ResponseEntity.status(HttpStatus.CREATED).body(lancamentoSalvo);
 	}
 	
-	
-	@DeleteMapping("/{codigo}")
+	@DeleteMapping
 	@ResponseStatus(HttpStatus.NO_CONTENT)
-	public void remover(@PathVariable Long codigo) {
+	public void remover (@PathVariable Long codigo) {
+		
 		lancamentoRepository.deleteById(codigo);
 	}
-	
 	
 	@ExceptionHandler({ PessoaInexistenteOuInativaException.class})
 	public ResponseEntity<Object> handlePessoaInexistenteOuInativaException( PessoaInexistenteOuInativaException ex) {

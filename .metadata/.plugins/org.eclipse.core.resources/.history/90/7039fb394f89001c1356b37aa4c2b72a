@@ -68,9 +68,10 @@ public class LancamentoResource {
 	}
 	
 	
-	@DeleteMapping("/{codigo}")
+	@DeleteMapping
 	@ResponseStatus(HttpStatus.NO_CONTENT)
-	public void remover(@PathVariable Long codigo) {
+	public void remover (@PathVariable Long codigo) {
+		
 		lancamentoRepository.deleteById(codigo);
 	}
 	

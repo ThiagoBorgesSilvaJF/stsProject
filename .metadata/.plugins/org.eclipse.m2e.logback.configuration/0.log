@@ -5441,3 +5441,538 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2022-02-10 21:25:52,106 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
 2022-02-10 22:32:44,566 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2022-02-11 21:06:58,073 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-12 18:49:17,270 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-12 18:53:02,000 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 18:53:02,000 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 18:53:02,004 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 18:53:02,017 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 18:53:02,038 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 18:53:02,038 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 18:53:02,038 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 18:58:02,377 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 18:58:02,377 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 18:58:02,383 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 18:58:02,387 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 18:58:02,390 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 18:58:02,390 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 18:58:02,390 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:07:12,172 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks.algamoney-api:algamoney-api:1.0.0-SNAPSHOT @ C:\stsProject\algamoney-api\pom.xml.
+2022-02-12 19:08:23,523 [Worker-11: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/algamoney-api/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:844)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1064)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1063)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:643)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:963)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-02-12 19:08:24,172 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks.algamoney-api:algamoney-api:1.0.0-SNAPSHOT @ C:\stsProject\algamoney-api\pom.xml.
+2022-02-12 19:08:45,382 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks.algamoney-api:algamoney-api:1.0.0-SNAPSHOT @ C:\stsProject\algamoney-api\pom.xml.
+2022-02-12 19:08:45,876 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:08:45,876 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:08:45,877 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-12 19:08:45,878 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-12 19:08:45,880 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:08:45,880 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:08:45,880 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:08:47,935 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/oauth/spring-security-oauth2/2.5.1.RELEASE/spring-security-oauth2-2.5.1.RELEASE-sources.jar
+2022-02-12 19:08:49,056 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/oauth/spring-security-oauth2/2.5.1.RELEASE/spring-security-oauth2-2.5.1.RELEASE-sources.jar
+2022-02-12 19:08:49,132 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security.oauth:spring-security-oauth2:2.5.1.RELEASE
+2022-02-12 19:08:49,930 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar
+2022-02-12 19:08:51,067 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar
+2022-02-12 19:08:51,196 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.15
+2022-02-12 19:08:51,860 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.6.3/spring-boot-starter-oauth2-resource-server-2.6.3-sources.jar
+2022-02-12 19:08:52,213 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.6.3/spring-boot-starter-oauth2-resource-server-2.6.3-sources.jar
+2022-02-12 19:08:52,272 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.6.3
+2022-02-12 19:08:52,926 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/5.6.1/spring-security-oauth2-resource-server-5.6.1-sources.jar
+2022-02-12 19:08:53,304 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/5.6.1/spring-security-oauth2-resource-server-5.6.1-sources.jar
+2022-02-12 19:08:53,365 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-resource-server:5.6.1
+2022-02-12 19:08:54,003 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-core/5.6.1/spring-security-oauth2-core-5.6.1-sources.jar
+2022-02-12 19:08:54,386 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-core/5.6.1/spring-security-oauth2-core-5.6.1-sources.jar
+2022-02-12 19:08:54,479 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-core:5.6.1
+2022-02-12 19:08:55,087 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/5.6.1/spring-security-oauth2-jose-5.6.1-sources.jar
+2022-02-12 19:08:55,424 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/5.6.1/spring-security-oauth2-jose-5.6.1-sources.jar
+2022-02-12 19:08:55,497 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-jose:5.6.1
+2022-02-12 19:08:56,135 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.14/nimbus-jose-jwt-9.14-sources.jar
+2022-02-12 19:08:57,342 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.14/nimbus-jose-jwt-9.14-sources.jar
+2022-02-12 19:08:57,407 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:nimbus-jose-jwt:9.14
+2022-02-12 19:08:58,050 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1-sources.jar
+2022-02-12 19:08:58,379 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1-sources.jar
+2022-02-12 19:08:58,448 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.stephenc.jcip:jcip-annotations:1.0-1
+2022-02-12 19:08:58,778 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:08:58,778 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:08:58,778 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-12 19:08:58,778 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-12 19:08:58,779 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:08:58,779 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:08:58,779 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:09:30,824 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:09:30,825 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:09:30,826 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:09:30,838 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:09:30,850 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:09:30,850 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:09:30,850 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:10:12,061 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:10:12,061 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:10:12,062 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:10:12,066 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:10:12,070 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:10:12,070 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:10:12,070 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:10:34,532 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:10:34,533 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:10:34,533 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:10:34,537 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:10:34,539 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:10:34,539 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:10:34,539 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:15:41,886 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks.algamoney-api:algamoney-api:1.0.0-SNAPSHOT @ C:\stsProject\algamoney-api\pom.xml.
+2022-02-12 19:15:42,831 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+2022-02-12 19:15:43,112 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+2022-02-12 19:15:43,257 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.0.2/nimbus-jose-jwt-6.0.2.pom
+2022-02-12 19:15:43,419 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.0.2/nimbus-jose-jwt-6.0.2.pom
+2022-02-12 19:15:43,564 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.1/nimbus-jose-jwt-6.1.pom
+2022-02-12 19:15:43,733 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.1/nimbus-jose-jwt-6.1.pom
+2022-02-12 19:15:43,878 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.1.1/nimbus-jose-jwt-6.1.1.pom
+2022-02-12 19:15:44,052 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.1.1/nimbus-jose-jwt-6.1.1.pom
+2022-02-12 19:15:44,192 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.2/nimbus-jose-jwt-6.2.pom
+2022-02-12 19:15:44,394 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.2/nimbus-jose-jwt-6.2.pom
+2022-02-12 19:15:44,534 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.3/nimbus-jose-jwt-6.3.pom
+2022-02-12 19:15:44,701 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.3/nimbus-jose-jwt-6.3.pom
+2022-02-12 19:15:44,841 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.3.1/nimbus-jose-jwt-6.3.1.pom
+2022-02-12 19:15:45,009 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.3.1/nimbus-jose-jwt-6.3.1.pom
+2022-02-12 19:15:45,150 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.4/nimbus-jose-jwt-6.4.pom
+2022-02-12 19:15:45,314 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.4/nimbus-jose-jwt-6.4.pom
+2022-02-12 19:15:45,455 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.4.1/nimbus-jose-jwt-6.4.1.pom
+2022-02-12 19:15:45,621 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.4.1/nimbus-jose-jwt-6.4.1.pom
+2022-02-12 19:15:45,764 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.4.2/nimbus-jose-jwt-6.4.2.pom
+2022-02-12 19:15:45,934 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.4.2/nimbus-jose-jwt-6.4.2.pom
+2022-02-12 19:15:46,075 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.5/nimbus-jose-jwt-6.5.pom
+2022-02-12 19:15:46,252 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.5/nimbus-jose-jwt-6.5.pom
+2022-02-12 19:15:46,392 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.5.1/nimbus-jose-jwt-6.5.1.pom
+2022-02-12 19:15:46,556 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.5.1/nimbus-jose-jwt-6.5.1.pom
+2022-02-12 19:15:46,697 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.6/nimbus-jose-jwt-6.6.pom
+2022-02-12 19:15:46,868 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.6/nimbus-jose-jwt-6.6.pom
+2022-02-12 19:15:47,018 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.7/nimbus-jose-jwt-6.7.pom
+2022-02-12 19:15:47,195 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.7/nimbus-jose-jwt-6.7.pom
+2022-02-12 19:15:47,334 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.8/nimbus-jose-jwt-6.8.pom
+2022-02-12 19:15:47,562 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.8/nimbus-jose-jwt-6.8.pom
+2022-02-12 19:15:47,702 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.0/nimbus-jose-jwt-7.0.pom
+2022-02-12 19:15:47,870 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.0/nimbus-jose-jwt-7.0.pom
+2022-02-12 19:15:48,010 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.0.1/nimbus-jose-jwt-7.0.1.pom
+2022-02-12 19:15:48,180 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.0.1/nimbus-jose-jwt-7.0.1.pom
+2022-02-12 19:15:48,323 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.1/nimbus-jose-jwt-7.1.pom
+2022-02-12 19:15:48,586 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.1/nimbus-jose-jwt-7.1.pom
+2022-02-12 19:15:48,728 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.2.1/nimbus-jose-jwt-7.2.1.pom
+2022-02-12 19:15:48,890 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.2.1/nimbus-jose-jwt-7.2.1.pom
+2022-02-12 19:15:49,030 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.3/nimbus-jose-jwt-7.3.pom
+2022-02-12 19:15:49,202 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.3/nimbus-jose-jwt-7.3.pom
+2022-02-12 19:15:49,343 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.4/nimbus-jose-jwt-7.4.pom
+2022-02-12 19:15:49,516 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.4/nimbus-jose-jwt-7.4.pom
+2022-02-12 19:15:49,659 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.5/nimbus-jose-jwt-7.5.pom
+2022-02-12 19:15:49,825 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.5/nimbus-jose-jwt-7.5.pom
+2022-02-12 19:15:49,966 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.pom
+2022-02-12 19:15:50,130 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.pom
+2022-02-12 19:15:50,277 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.6/nimbus-jose-jwt-7.6.pom
+2022-02-12 19:15:50,442 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.6/nimbus-jose-jwt-7.6.pom
+2022-02-12 19:15:50,580 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.7/nimbus-jose-jwt-7.7.pom
+2022-02-12 19:15:50,754 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.7/nimbus-jose-jwt-7.7.pom
+2022-02-12 19:15:50,893 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.8/nimbus-jose-jwt-7.8.pom
+2022-02-12 19:15:51,061 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.8/nimbus-jose-jwt-7.8.pom
+2022-02-12 19:15:51,202 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.8.1/nimbus-jose-jwt-7.8.1.pom
+2022-02-12 19:15:51,370 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.8.1/nimbus-jose-jwt-7.8.1.pom
+2022-02-12 19:15:51,510 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.9/nimbus-jose-jwt-7.9.pom
+2022-02-12 19:15:51,681 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/7.9/nimbus-jose-jwt-7.9.pom
+2022-02-12 19:15:51,838 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.0/nimbus-jose-jwt-8.0.pom
+2022-02-12 19:15:52,009 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.0/nimbus-jose-jwt-8.0.pom
+2022-02-12 19:15:52,167 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.1/nimbus-jose-jwt-8.1.pom
+2022-02-12 19:15:52,332 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.1/nimbus-jose-jwt-8.1.pom
+2022-02-12 19:15:52,472 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.2/nimbus-jose-jwt-8.2.pom
+2022-02-12 19:15:52,642 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.2/nimbus-jose-jwt-8.2.pom
+2022-02-12 19:15:52,781 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.2.1/nimbus-jose-jwt-8.2.1.pom
+2022-02-12 19:15:52,959 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.2.1/nimbus-jose-jwt-8.2.1.pom
+2022-02-12 19:15:53,097 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.3/nimbus-jose-jwt-8.3.pom
+2022-02-12 19:15:53,262 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.3/nimbus-jose-jwt-8.3.pom
+2022-02-12 19:15:53,404 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.4/nimbus-jose-jwt-8.4.pom
+2022-02-12 19:15:53,587 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.4/nimbus-jose-jwt-8.4.pom
+2022-02-12 19:15:53,752 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.4.1/nimbus-jose-jwt-8.4.1.pom
+2022-02-12 19:15:53,920 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.4.1/nimbus-jose-jwt-8.4.1.pom
+2022-02-12 19:15:54,059 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.5/nimbus-jose-jwt-8.5.pom
+2022-02-12 19:15:54,228 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.5/nimbus-jose-jwt-8.5.pom
+2022-02-12 19:15:54,369 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.5.1/nimbus-jose-jwt-8.5.1.pom
+2022-02-12 19:15:54,540 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.5.1/nimbus-jose-jwt-8.5.1.pom
+2022-02-12 19:15:54,678 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.6/nimbus-jose-jwt-8.6.pom
+2022-02-12 19:15:54,845 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.6/nimbus-jose-jwt-8.6.pom
+2022-02-12 19:15:54,994 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.7/nimbus-jose-jwt-8.7.pom
+2022-02-12 19:15:55,246 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.7/nimbus-jose-jwt-8.7.pom
+2022-02-12 19:15:55,401 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.8/nimbus-jose-jwt-8.8.pom
+2022-02-12 19:15:55,570 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.8/nimbus-jose-jwt-8.8.pom
+2022-02-12 19:15:55,710 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.9/nimbus-jose-jwt-8.9.pom
+2022-02-12 19:15:55,880 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.9/nimbus-jose-jwt-8.9.pom
+2022-02-12 19:15:56,020 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.10/nimbus-jose-jwt-8.10.pom
+2022-02-12 19:15:56,198 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.10/nimbus-jose-jwt-8.10.pom
+2022-02-12 19:15:56,341 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.11/nimbus-jose-jwt-8.11.pom
+2022-02-12 19:15:56,516 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.11/nimbus-jose-jwt-8.11.pom
+2022-02-12 19:15:56,668 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.12/nimbus-jose-jwt-8.12.pom
+2022-02-12 19:15:56,827 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.12/nimbus-jose-jwt-8.12.pom
+2022-02-12 19:15:56,977 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.13/nimbus-jose-jwt-8.13.pom
+2022-02-12 19:15:57,144 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.13/nimbus-jose-jwt-8.13.pom
+2022-02-12 19:15:57,290 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.14/nimbus-jose-jwt-8.14.pom
+2022-02-12 19:15:57,467 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.14/nimbus-jose-jwt-8.14.pom
+2022-02-12 19:15:57,618 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.14.1/nimbus-jose-jwt-8.14.1.pom
+2022-02-12 19:15:57,790 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.14.1/nimbus-jose-jwt-8.14.1.pom
+2022-02-12 19:15:57,947 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.15/nimbus-jose-jwt-8.15.pom
+2022-02-12 19:15:58,117 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.15/nimbus-jose-jwt-8.15.pom
+2022-02-12 19:15:58,256 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.16/nimbus-jose-jwt-8.16.pom
+2022-02-12 19:15:58,428 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.16/nimbus-jose-jwt-8.16.pom
+2022-02-12 19:15:58,568 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17/nimbus-jose-jwt-8.17.pom
+2022-02-12 19:15:58,749 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17/nimbus-jose-jwt-8.17.pom
+2022-02-12 19:15:58,905 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17.1/nimbus-jose-jwt-8.17.1.pom
+2022-02-12 19:15:59,077 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17.1/nimbus-jose-jwt-8.17.1.pom
+2022-02-12 19:15:59,218 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.18/nimbus-jose-jwt-8.18.pom
+2022-02-12 19:15:59,386 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.18/nimbus-jose-jwt-8.18.pom
+2022-02-12 19:15:59,536 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.18.1/nimbus-jose-jwt-8.18.1.pom
+2022-02-12 19:15:59,714 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.18.1/nimbus-jose-jwt-8.18.1.pom
+2022-02-12 19:15:59,861 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.19/nimbus-jose-jwt-8.19.pom
+2022-02-12 19:16:00,027 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.19/nimbus-jose-jwt-8.19.pom
+2022-02-12 19:16:00,175 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.20/nimbus-jose-jwt-8.20.pom
+2022-02-12 19:16:00,340 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.20/nimbus-jose-jwt-8.20.pom
+2022-02-12 19:16:00,487 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.20.1/nimbus-jose-jwt-8.20.1.pom
+2022-02-12 19:16:00,764 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.20.1/nimbus-jose-jwt-8.20.1.pom
+2022-02-12 19:16:00,911 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.20.2/nimbus-jose-jwt-8.20.2.pom
+2022-02-12 19:16:01,082 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.20.2/nimbus-jose-jwt-8.20.2.pom
+2022-02-12 19:16:01,238 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.21/nimbus-jose-jwt-8.21.pom
+2022-02-12 19:16:01,408 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.21/nimbus-jose-jwt-8.21.pom
+2022-02-12 19:16:01,548 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.21.1/nimbus-jose-jwt-8.21.1.pom
+2022-02-12 19:16:01,720 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.21.1/nimbus-jose-jwt-8.21.1.pom
+2022-02-12 19:16:01,867 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.22/nimbus-jose-jwt-8.22.pom
+2022-02-12 19:16:02,062 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.22/nimbus-jose-jwt-8.22.pom
+2022-02-12 19:16:02,208 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.22.1/nimbus-jose-jwt-8.22.1.pom
+2022-02-12 19:16:02,392 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.22.1/nimbus-jose-jwt-8.22.1.pom
+2022-02-12 19:16:02,539 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.23/nimbus-jose-jwt-8.23.pom
+2022-02-12 19:16:02,713 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.23/nimbus-jose-jwt-8.23.pom
+2022-02-12 19:16:02,891 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.0/nimbus-jose-jwt-9.0.pom
+2022-02-12 19:16:03,067 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.0/nimbus-jose-jwt-9.0.pom
+2022-02-12 19:16:03,210 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.0.1/nimbus-jose-jwt-9.0.1.pom
+2022-02-12 19:16:03,415 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.0.1/nimbus-jose-jwt-9.0.1.pom
+2022-02-12 19:16:03,558 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1/nimbus-jose-jwt-9.1.pom
+2022-02-12 19:16:03,723 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1/nimbus-jose-jwt-9.1.pom
+2022-02-12 19:16:03,871 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.1/nimbus-jose-jwt-9.1.1.pom
+2022-02-12 19:16:04,048 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.1/nimbus-jose-jwt-9.1.1.pom
+2022-02-12 19:16:04,236 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.2/nimbus-jose-jwt-9.1.2.pom
+2022-02-12 19:16:04,407 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.2/nimbus-jose-jwt-9.1.2.pom
+2022-02-12 19:16:04,553 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.3/nimbus-jose-jwt-9.1.3.pom
+2022-02-12 19:16:04,725 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.3/nimbus-jose-jwt-9.1.3.pom
+2022-02-12 19:16:04,872 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.4/nimbus-jose-jwt-9.1.4.pom
+2022-02-12 19:16:05,041 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.4/nimbus-jose-jwt-9.1.4.pom
+2022-02-12 19:16:05,189 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.5/nimbus-jose-jwt-9.1.5.pom
+2022-02-12 19:16:05,352 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.1.5/nimbus-jose-jwt-9.1.5.pom
+2022-02-12 19:16:05,660 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.2/nimbus-jose-jwt-9.2.pom
+2022-02-12 19:16:05,833 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.2/nimbus-jose-jwt-9.2.pom
+2022-02-12 19:16:05,998 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.3/nimbus-jose-jwt-9.3.pom
+2022-02-12 19:16:06,171 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.3/nimbus-jose-jwt-9.3.pom
+2022-02-12 19:16:06,314 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.4/nimbus-jose-jwt-9.4.pom
+2022-02-12 19:16:06,474 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.4/nimbus-jose-jwt-9.4.pom
+2022-02-12 19:16:06,614 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.pom
+2022-02-12 19:16:06,784 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.pom
+2022-02-12 19:16:06,948 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.4.2/nimbus-jose-jwt-9.4.2.pom
+2022-02-12 19:16:07,111 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.4.2/nimbus-jose-jwt-9.4.2.pom
+2022-02-12 19:16:07,253 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.5/nimbus-jose-jwt-9.5.pom
+2022-02-12 19:16:07,421 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.5/nimbus-jose-jwt-9.5.pom
+2022-02-12 19:16:07,563 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.6/nimbus-jose-jwt-9.6.pom
+2022-02-12 19:16:07,721 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.6/nimbus-jose-jwt-9.6.pom
+2022-02-12 19:16:07,958 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.6.1/nimbus-jose-jwt-9.6.1.pom
+2022-02-12 19:16:08,124 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.6.1/nimbus-jose-jwt-9.6.1.pom
+2022-02-12 19:16:08,272 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.7/nimbus-jose-jwt-9.7.pom
+2022-02-12 19:16:08,430 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.7/nimbus-jose-jwt-9.7.pom
+2022-02-12 19:16:08,569 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.8/nimbus-jose-jwt-9.8.pom
+2022-02-12 19:16:08,734 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.8/nimbus-jose-jwt-9.8.pom
+2022-02-12 19:16:08,877 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.8.1/nimbus-jose-jwt-9.8.1.pom
+2022-02-12 19:16:09,108 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.8.1/nimbus-jose-jwt-9.8.1.pom
+2022-02-12 19:16:09,248 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9/nimbus-jose-jwt-9.9.pom
+2022-02-12 19:16:09,433 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9/nimbus-jose-jwt-9.9.pom
+2022-02-12 19:16:09,581 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.1/nimbus-jose-jwt-9.9.1.pom
+2022-02-12 19:16:09,765 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.1/nimbus-jose-jwt-9.9.1.pom
+2022-02-12 19:16:09,912 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.2/nimbus-jose-jwt-9.9.2.pom
+2022-02-12 19:16:10,110 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.2/nimbus-jose-jwt-9.9.2.pom
+2022-02-12 19:16:10,301 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.3/nimbus-jose-jwt-9.9.3.pom
+2022-02-12 19:16:10,454 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.3/nimbus-jose-jwt-9.9.3.pom
+2022-02-12 19:16:10,605 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.10/nimbus-jose-jwt-9.10.pom
+2022-02-12 19:16:10,812 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.10/nimbus-jose-jwt-9.10.pom
+2022-02-12 19:16:11,000 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.10.1/nimbus-jose-jwt-9.10.1.pom
+2022-02-12 19:16:11,233 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.10.1/nimbus-jose-jwt-9.10.1.pom
+2022-02-12 19:16:11,412 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.11/nimbus-jose-jwt-9.11.pom
+2022-02-12 19:16:11,623 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.11/nimbus-jose-jwt-9.11.pom
+2022-02-12 19:16:11,769 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.11.1/nimbus-jose-jwt-9.11.1.pom
+2022-02-12 19:16:11,986 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.11.1/nimbus-jose-jwt-9.11.1.pom
+2022-02-12 19:16:12,169 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.11.2/nimbus-jose-jwt-9.11.2.pom
+2022-02-12 19:16:12,386 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.11.2/nimbus-jose-jwt-9.11.2.pom
+2022-02-12 19:16:12,567 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.11.3/nimbus-jose-jwt-9.11.3.pom
+2022-02-12 19:16:12,780 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.11.3/nimbus-jose-jwt-9.11.3.pom
+2022-02-12 19:16:12,930 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.12/nimbus-jose-jwt-9.12.pom
+2022-02-12 19:16:13,091 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.12/nimbus-jose-jwt-9.12.pom
+2022-02-12 19:16:13,230 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.12.1/nimbus-jose-jwt-9.12.1.pom
+2022-02-12 19:16:13,398 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.12.1/nimbus-jose-jwt-9.12.1.pom
+2022-02-12 19:16:13,549 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.13/nimbus-jose-jwt-9.13.pom
+2022-02-12 19:16:13,732 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.13/nimbus-jose-jwt-9.13.pom
+2022-02-12 19:16:13,874 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.15/nimbus-jose-jwt-9.15.pom
+2022-02-12 19:16:14,056 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.15/nimbus-jose-jwt-9.15.pom
+2022-02-12 19:16:14,215 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.15.1/nimbus-jose-jwt-9.15.1.pom
+2022-02-12 19:16:14,394 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.15.1/nimbus-jose-jwt-9.15.1.pom
+2022-02-12 19:16:14,557 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.15.2/nimbus-jose-jwt-9.15.2.pom
+2022-02-12 19:16:14,735 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.15.2/nimbus-jose-jwt-9.15.2.pom
+2022-02-12 19:16:14,887 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.16/nimbus-jose-jwt-9.16.pom
+2022-02-12 19:16:15,111 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.16/nimbus-jose-jwt-9.16.pom
+2022-02-12 19:16:15,349 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.16-preview.1/nimbus-jose-jwt-9.16-preview.1.pom
+2022-02-12 19:16:15,563 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.16-preview.1/nimbus-jose-jwt-9.16-preview.1.pom
+2022-02-12 19:16:15,702 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.16.1/nimbus-jose-jwt-9.16.1.pom
+2022-02-12 19:16:15,870 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.16.1/nimbus-jose-jwt-9.16.1.pom
+2022-02-12 19:16:16,011 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.17/nimbus-jose-jwt-9.17.pom
+2022-02-12 19:16:16,182 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.17/nimbus-jose-jwt-9.17.pom
+2022-02-12 19:16:16,322 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.18/nimbus-jose-jwt-9.18.pom
+2022-02-12 19:16:16,551 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.18/nimbus-jose-jwt-9.18.pom
+2022-02-12 19:16:16,692 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.19/nimbus-jose-jwt-9.19.pom
+2022-02-12 19:16:16,860 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.19/nimbus-jose-jwt-9.19.pom
+2022-02-12 19:16:17,018 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2022-02-12 19:16:17,180 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/6.13/oauth2-oidc-sdk-6.13.jar
+2022-02-12 19:16:17,220 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.1/javax.mail-1.6.1.jar
+2022-02-12 19:16:17,220 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.19/nimbus-jose-jwt-9.19.jar
+2022-02-12 19:16:17,220 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.jar
+2022-02-12 19:16:18,249 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2022-02-12 19:16:18,249 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.jar
+2022-02-12 19:16:20,854 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/6.13/oauth2-oidc-sdk-6.13.jar
+2022-02-12 19:16:21,313 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.19/nimbus-jose-jwt-9.19.jar
+2022-02-12 19:16:21,463 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.1/javax.mail-1.6.1.jar
+2022-02-12 19:16:22,002 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:16:22,002 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:16:22,004 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-12 19:16:22,004 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-12 19:16:22,008 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:16:22,008 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:16:22,008 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:16:23,679 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:16:23,680 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:16:23,680 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:16:23,690 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:16:23,700 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:16:23,700 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:16:23,701 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:16:24,008 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/6.13/oauth2-oidc-sdk-6.13-sources.jar
+2022-02-12 19:16:25,235 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/6.13/oauth2-oidc-sdk-6.13-sources.jar
+2022-02-12 19:16:25,279 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:oauth2-oidc-sdk:6.13
+2022-02-12 19:16:25,859 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.1/javax.mail-1.6.1-sources.jar
+2022-02-12 19:16:26,415 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:16:26,415 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:16:26,416 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:16:26,417 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:16:26,425 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:16:26,425 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:16:26,425 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:16:28,878 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.6.1/javax.mail-1.6.1-sources.jar
+2022-02-12 19:16:28,922 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:javax.mail:1.6.1
+2022-02-12 19:16:29,521 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar
+2022-02-12 19:16:29,845 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar
+2022-02-12 19:16:29,896 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:activation:1.1
+2022-02-12 19:16:30,482 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5-sources.jar
+2022-02-12 19:16:30,768 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5-sources.jar
+2022-02-12 19:16:30,842 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:lang-tag:1.5
+2022-02-12 19:16:31,403 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.19/nimbus-jose-jwt-9.19-sources.jar
+2022-02-12 19:16:32,532 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.19/nimbus-jose-jwt-9.19-sources.jar
+2022-02-12 19:16:32,591 [Worker-28: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:nimbus-jose-jwt:9.19
+2022-02-12 19:16:32,828 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:16:32,828 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:16:32,828 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-12 19:16:32,828 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-12 19:16:32,830 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:16:32,830 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:16:32,830 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:17:19,876 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:17:19,877 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:17:19,877 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:17:19,880 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:17:19,882 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:17:19,882 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:17:19,882 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:24:38,724 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:24:38,724 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:24:38,725 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:24:38,727 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:24:38,729 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:24:38,729 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:24:38,729 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:33:55,297 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:33:55,298 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:33:55,298 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:33:55,332 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:33:55,336 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:33:55,336 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:33:55,336 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:41:39,917 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:41:39,917 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:41:39,918 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:41:39,926 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-12 19:41:39,928 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:41:39,928 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:41:39,928 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:41:49,997 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:41:49,997 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:41:49,998 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:41:50,002 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:41:50,005 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:41:50,005 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:41:50,005 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:47:45,844 [Worker-43: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:47:45,845 [Worker-43: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:47:45,845 [Worker-43: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:47:45,852 [Worker-43: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:47:45,856 [Worker-43: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:47:45,856 [Worker-43: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:47:45,856 [Worker-43: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 19:49:18,544 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:49:18,544 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:49:18,545 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 19:49:18,558 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 19:49:18,562 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 19:49:18,562 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 19:49:18,562 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 20:00:29,795 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 20:00:29,795 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 20:00:29,796 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 20:00:29,807 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 20:00:29,809 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 20:00:29,809 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 20:00:29,809 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 20:01:08,631 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 20:01:08,631 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 20:01:08,632 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 20:01:08,639 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 20:01:08,641 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 20:01:08,641 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 20:01:08,641 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-12 22:04:42,084 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 22:04:42,085 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 22:04:42,086 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-12 22:04:42,093 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-12 22:04:42,095 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-12 22:04:42,096 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-12 22:04:42,096 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 19:28:43,076 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-13 19:39:28,731 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 19:39:28,732 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 19:39:28,736 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 19:39:28,754 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 19:39:28,779 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 19:39:28,779 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 19:39:28,779 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 19:39:43,897 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 19:39:43,897 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 19:39:43,900 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 19:39:43,905 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 19:39:43,908 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 19:39:43,908 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 19:39:43,908 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 19:40:53,857 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 19:40:53,858 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 19:40:53,859 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 19:40:53,886 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 19:40:53,889 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 19:40:53,889 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 19:40:53,890 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 19:59:50,369 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks.algamoney-api:algamoney-api:1.0.0-SNAPSHOT @ C:\stsProject\algamoney-api\pom.xml.
+2022-02-13 19:59:51,603 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar
+2022-02-13 20:00:03,314 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar
+2022-02-13 20:00:03,786 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:00:03,787 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:00:03,788 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-13 20:00:03,789 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-13 20:00:03,790 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:00:03,790 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:00:03,791 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:00:05,348 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:00:05,348 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:00:05,349 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 20:00:05,363 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 20:00:05,371 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:00:05,372 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:00:05,372 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:00:05,454 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-jwt/1.1.1.RELEASE/spring-security-jwt-1.1.1.RELEASE-sources.jar
+2022-02-13 20:00:05,779 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-jwt/1.1.1.RELEASE/spring-security-jwt-1.1.1.RELEASE-sources.jar
+2022-02-13 20:00:05,942 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-jwt:1.1.1.RELEASE
+2022-02-13 20:00:06,588 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64-sources.jar
+2022-02-13 20:00:08,164 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64-sources.jar
+2022-02-13 20:00:08,208 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.bouncycastle:bcpkix-jdk15on:1.64
+2022-02-13 20:00:08,823 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64-sources.jar
+2022-02-13 20:00:16,881 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64-sources.jar
+2022-02-13 20:00:16,929 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.bouncycastle:bcprov-jdk15on:1.64
+2022-02-13 20:00:17,215 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:00:17,216 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:00:17,216 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-13 20:00:17,216 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-13 20:00:17,218 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:00:17,218 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:00:17,218 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:05:44,261 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:05:44,261 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:05:44,262 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 20:05:44,264 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 20:05:44,272 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:05:44,273 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:05:44,273 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:07:20,077 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:07:20,077 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:07:20,078 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 20:07:20,082 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 20:07:20,084 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:07:20,084 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:07:20,085 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:10:46,825 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:10:46,826 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:10:46,826 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 20:10:46,830 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 20:10:46,832 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:10:46,832 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:10:46,832 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:12:17,121 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:12:17,121 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:12:17,122 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 20:12:17,125 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 20:12:17,127 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:12:17,127 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:12:17,127 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:28:32,273 [Worker-34: Launching algamoney-api - AlgamoneyApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:28:32,273 [Worker-34: Launching algamoney-api - AlgamoneyApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:28:32,274 [Worker-34: Launching algamoney-api - AlgamoneyApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 20:28:32,279 [Worker-34: Launching algamoney-api - AlgamoneyApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 20:28:32,282 [Worker-34: Launching algamoney-api - AlgamoneyApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:28:32,283 [Worker-34: Launching algamoney-api - AlgamoneyApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:28:32,283 [Worker-34: Launching algamoney-api - AlgamoneyApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:31:21,293 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:31:21,293 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:31:21,294 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 20:31:21,300 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 20:31:21,303 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:31:21,303 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:31:21,303 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:31:29,124 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:31:29,124 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:31:29,125 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 20:31:29,129 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 20:31:29,131 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:31:29,131 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:31:29,131 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources
+2022-02-13 20:32:06,174 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:32:06,174 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:32:06,175 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-13 20:32:06,189 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-02-13 20:32:06,192 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-13 20:32:06,192 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-13 20:32:06,192 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\stsProject\algamoney-api\src\test\resources

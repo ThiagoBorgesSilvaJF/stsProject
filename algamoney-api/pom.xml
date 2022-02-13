@@ -68,8 +68,33 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-				
-			
+		
+		<dependency>
+		    <groupId>org.springframework.security</groupId>
+		    <artifactId>spring-security-jwt</artifactId>
+		    <version>1.1.1.RELEASE</version>
+		</dependency>
+		
+		
+		<dependency>
+		    <groupId>org.springframework.security.oauth</groupId>
+		    <artifactId>spring-security-oauth2</artifactId>
+    		<version>2.5.1.RELEASE</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+		</dependency>
+
+		<!-- Necessário para o funcionamento do Opaque Token -->
+		
+		<dependency>
+		    <groupId>com.nimbusds</groupId>
+		    <artifactId>oauth2-oidc-sdk</artifactId>
+		    <version>6.13</version>			
+		    <scope>runtime</scope>
+		</dependency>
 		
 		<!-- Hibernate java 8 Support -->
 		
